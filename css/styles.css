@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.people-box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(207, 207, 207);
+}
+.addPeople{
+   height: 50px;
+   width: 300px;
+}
+.add-btn{
+    height: 39px;
+    width: 70px;
+    background-color: rgb(70, 154, 70);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.add-btn:hover{
+    cursor: pointer;
+}
+input{
+    height: 40px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.name{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(237, 236, 236);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.del{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.del:hover{
+    cursor: pointer;
+}
+.nameList{
+    width: 400px;
+    padding: 15px;
+    overflow: auto;
+}
